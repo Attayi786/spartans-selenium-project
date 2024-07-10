@@ -8,8 +8,11 @@ public class Activity1 {
 
         ChromeDriver fbDriver = new ChromeDriver();
         fbDriver.get("https://www.facebook.com/");
+        String title = fbDriver.getTitle();
+        System.out.println(title);
 
-        fbDriver.quit();
+
+        // fbDriver.quit();
 
     }
 }
