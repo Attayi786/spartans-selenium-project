@@ -8,7 +8,7 @@ public class RandomNumber {
 //        int number = (int) (random * 100000);
 //        System.out.println(number);
 
-        int number = (int) (Math.random() * 10000);
+        int number = (int) (Math.random() * 100000);
         System.out.println(number);
 
     }

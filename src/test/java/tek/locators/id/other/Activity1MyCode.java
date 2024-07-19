@@ -28,7 +28,7 @@ public class Activity1MyCode {
         WebElement typeName = driver.findElement(nameInputLocator);
         typeName.sendKeys("SnowLeopard");
 
-        driver.findElement(By.name("email")).sendKeys("SnowLeopard@gmail.com");
+        driver.findElement(By.name("email")).sendKeys("SnowLeopard@@gmail.com");
 
         driver.findElement(By.name("password")).sendKeys("Password@999");
 
@@ -40,7 +40,7 @@ public class Activity1MyCode {
 
         System.out.println(errorText);
 
-        driver.quit();
+        //driver.quit();
 
 
     }
